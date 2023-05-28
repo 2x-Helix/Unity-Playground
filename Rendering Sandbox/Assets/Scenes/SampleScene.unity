@@ -389,7 +389,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e3b137c61ec296408d71c570e05f52b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotation: {x: 0, y: 1, z: 0}
+  rotation: {x: 0, y: 0, z: 0}
 --- !u!114 &1418231519
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -397,12 +397,9 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1418231513}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2056f8d5887070c42be187770996aae3, type: 3}
+  m_Script: {fileID: 11500000, guid: 3c7527d46402e3843842422518b36a77, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scaleTransform: {fileID: 1418231517}
-  rotateTransform: {fileID: 1418231518}
-  scaleAmount: {x: 0, y: 0, z: 0}
-  rotateAmount: {x: 0, y: 0, z: 0}
+  focalLength: 1
